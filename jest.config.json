@@ -1,0 +1,11 @@
+{
+  "preset": "jest-expo",
+  "transformIgnorePatterns": [
+    "node_modules/(?!static-container)/"
+  ],
+  "coveragePathIgnorePatterns": [
+    "/node_modules/",
+    "/jest"
+  ],
+  "cache": true
+}

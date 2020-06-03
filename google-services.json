@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "454712275168",
+    "firebase_url": "https://area-toulouse.firebaseio.com",
+    "project_id": "area-toulouse",
+    "storage_bucket": "area-toulouse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454712275168:android:67811445f3b5aa9c0a2085",
+        "android_client_info": {
+          "package_name": "com.project.area"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454712275168-01nheqp1tmv9l9d2l20fcaa2du8cu8rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKPPZGeDLGUwrSYIefa8p38S9aPGgMiZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454712275168-01nheqp1tmv9l9d2l20fcaa2du8cu8rm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "454712275168-us5g0at84b89ljcmnakmm9bo2e7oafve.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.project.area"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

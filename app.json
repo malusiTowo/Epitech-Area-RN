@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Area",
+    "slug": "area",
+    "description": "A clone of the popular DIY app, IFTTT",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/ifttt_icon.png",
+    "splash": {
+      "image": "./src/assets/ifttt_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.project.area",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.454712275168-us5g0at84b89ljcmnakmm9bo2e7oafve"
+        }
+      }
+    },
+    "scheme": "area-epitech-toulouse",
+    "notification": {
+      "icon": "./src/assets/notification_icon.png",
+      "iosDisplayInForeground": true,
+      "color": "#000000",
+      "androidMode": "default"
+    },
+    "android": {
+      "package": "com.project.area",
+      "googleServicesFile": "./google-services.json"
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyCOcufcWjr4kimXwCj5wWF01oDk7YR_VwQ",
+        "authDomain": "area-toulouse.firebaseapp.com",
+        "databaseURL": "https://area-toulouse.firebaseio.com",
+        "projectId": "area-toulouse",
+        "storageBucket": "area-toulouse.appspot.com",
+        "messagingSenderId": "454712275168",
+        "appId": "1:454712275168:web:8011d0911769905f0a2085",
+        "measurementId": "G-2LLWZHM0EN"
+      }
+    }
+  }
+}
